@@ -1,0 +1,20 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+     int age = 14;
+         String Fname = " نواف";
+         String Lname = "العفاسي";
+         
+         if (age >= 18){
+         for(int i =0;i<=2;i++){
+             System.out.println(i +"مبروك يا" + Fname + " " + Lname + ", سوف تحصل على رخصة القيادة ");
+         }
+         }
+         else{
+         for(int i =0;i<=2;i++){
+             System.out.println(i + "للأسف يا " + Fname + " " + Lname + " , ما زلت صغير للحصول على الرخص");
+         }
+         }
+}
+}
+
