@@ -1,0 +1,19 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println(Old ( 14, "نواف" ));
+     }
+     public static String Old ( int Age, String fName ){
+         if (Age >= 18){
+             for (int i = 0; i <= 2; i++){
+             System.out.println(i + "مبروك يا " + fName + " , سوف تحصل على رخصة القيادة");
+             }
+         }else{
+             for (int i = 0; i <= 2; i++){
+             System.out.println(i + "للأسف يا " + fName + " , ما زلت صغير للحصول على الرخصة");
+             }
+         }
+         
+                      return fName;
+     }
+}
